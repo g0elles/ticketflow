@@ -1,0 +1,18 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/TicketFlow.Api/TicketFlow.Api.csproj" />
+    <Project Path="src/TicketFlow.BuildingBlocks/TicketFlow.BuildingBlocks.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/" />
+  <Folder Name="/src/Modules/Events/">
+    <Project Path="src/Modules/Events/TicketFlow.Modules.Events.Application/TicketFlow.Modules.Events.Application.csproj" />
+    <Project Path="src/Modules/Events/TicketFlow.Modules.Events.Contracts/TicketFlow.Modules.Events.Contracts.csproj" />
+    <Project Path="src/Modules/Events/TicketFlow.Modules.Events.Domain/TicketFlow.Modules.Events.Domain.csproj" />
+    <Project Path="src/Modules/Events/TicketFlow.Modules.Events.Infrastructure/TicketFlow.Modules.Events.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/TicketFlow.Api.Tests/TicketFlow.Api.Tests.csproj" />
+    <Project Path="tests/TicketFlow.Modules.Events.Application.Tests/TicketFlow.Modules.Events.Application.Tests.csproj" />
+    <Project Path="tests/TicketFlow.Modules.Events.Domain.Tests/TicketFlow.Modules.Events.Domain.Tests.csproj" />
+  </Folder>
+</Solution>

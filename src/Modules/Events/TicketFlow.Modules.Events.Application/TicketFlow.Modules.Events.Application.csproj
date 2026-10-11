@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\TicketFlow.Modules.Events.Domain\TicketFlow.Modules.Events.Domain.csproj" />
+    <ProjectReference Include="..\TicketFlow.Modules.Events.Contracts\TicketFlow.Modules.Events.Contracts.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+  </PropertyGroup>
+
+</Project>
