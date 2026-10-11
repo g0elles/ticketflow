@@ -81,7 +81,8 @@ private static readonly ArchModel ArchitectureModel = new ArchLoader()
         .Should().NotDependOnAny(DomainLayer)
         .AndShould().NotDependOnAny(ApplicationLayer)
         .AndShould().NotDependOnAny(InfrastructureLayer)
-        .AndShould().NotDependOnAny(ApiLayer);
+        .AndShould().NotDependOnAny(ApiLayer)
+        .AndShould().NotDependOnAny(BuildingBlocksLayer);
      rule.Check(ArchitectureModel);
     }
 
