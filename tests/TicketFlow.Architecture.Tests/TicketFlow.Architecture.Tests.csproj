@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="xunit.v3.mtp-v2" />
+    <PackageReference Include="TngTech.ArchUnitNET.xUnitV3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Modules\Events\TicketFlow.Modules.Events.Application\TicketFlow.Modules.Events.Application.csproj" />
+    <ProjectReference Include="..\..\src\Modules\Events\TicketFlow.Modules.Events.Contracts\TicketFlow.Modules.Events.Contracts.csproj" />
+    <ProjectReference Include="..\..\src\Modules\Events\TicketFlow.Modules.Events.Domain\TicketFlow.Modules.Events.Domain.csproj" />
+    <ProjectReference Include="..\..\src\Modules\Events\TicketFlow.Modules.Events.Infrastructure\TicketFlow.Modules.Events.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\src\TicketFlow.Api\TicketFlow.Api.csproj" />
+    <ProjectReference Include="..\..\src\TicketFlow.BuildingBlocks\TicketFlow.BuildingBlocks.csproj" />
+  </ItemGroup>
+
+  <!-- ProjectReference items added by dotnet add ... reference -->
+
+</Project>

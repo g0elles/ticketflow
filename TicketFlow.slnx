@@ -12,7 +12,9 @@
   </Folder>
   <Folder Name="/tests/">
     <Project Path="tests/TicketFlow.Api.Tests/TicketFlow.Api.Tests.csproj" />
+    <Project Path="tests/TicketFlow.Architecture.Tests/TicketFlow.Architecture.Tests.csproj" />
     <Project Path="tests/TicketFlow.Modules.Events.Application.Tests/TicketFlow.Modules.Events.Application.Tests.csproj" />
     <Project Path="tests/TicketFlow.Modules.Events.Domain.Tests/TicketFlow.Modules.Events.Domain.Tests.csproj" />
+    <Project Path="tests/TicketFlow.Modules.Events.Infrastructure.Tests/TicketFlow.Modules.Events.Infrastructure.Tests.csproj" />
   </Folder>
 </Solution>
